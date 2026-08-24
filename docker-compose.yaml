@@ -1,0 +1,7 @@
+services:
+  nodejs-app:
+    image: roonakyaqoob/myapp:latest
+    build: .
+    container_name: nodejs-app
+    ports:
+      - "3000:3000"
