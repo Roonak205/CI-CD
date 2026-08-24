@@ -4,9 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-
 RUN npm install
 
 EXPOSE 3000
 
-CMD ["node", "myapp.js"]
+CMD ["npm", "start"]
